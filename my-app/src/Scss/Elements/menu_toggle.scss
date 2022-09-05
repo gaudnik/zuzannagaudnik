@@ -1,0 +1,90 @@
+.menu {
+  &__btn {
+    display: none;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    opacity: 0;
+  
+      &:checked {
+        & ~ .header__nav {
+            display: flex;
+            flex-direction: column;
+            float: right;
+            align-items: center;
+            width: 100%;
+              background-color: $color-primary;
+              @include notebook{
+                display: none;
+              }
+  
+            .nav__element {
+              padding-bottom: 1rem;
+              padding-top: 1rem;
+              width: 100%;
+              text-align: center;
+              font-weight: 700; 
+              font-size: 1.5rem;
+              a{
+                color: $color-dar-grey;
+  
+              }
+             
+              a:active {
+                color: $color-purple;
+              }
+            }
+          }
+        }
+      }
+      
+  
+      &__toggle {
+        display: block;
+        float: right;
+        margin: 2rem;
+  
+        span {
+          width: 40px;
+          height: 3px;
+          display: block;
+          margin-bottom: 6px;
+          background-color: $color-purple;
+          transition: .3s all ease-in-out;
+          align-items: end;
+  
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+  
+        @include notebook {
+          display: none;
+        }
+      }
+    }
+  
+    .header__nav{
+      display: none;
+  
+      @include notebook{
+          display: flex;
+          justify-content: flex-end;
+          padding-right: 4.5rem;
+          padding-bottom: 2rem;
+  
+          .nav__element{
+            padding-left: 2rem;
+  
+            a{
+              color: $color-purple;
+            }
+            :hover{
+              padding: 1rem;
+              border: 1px solid $color-light-purple;
+              color: $color-light-purple;
+            }
+  
+          }
+        }
+      }

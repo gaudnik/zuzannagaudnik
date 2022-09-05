@@ -1,5 +1,12 @@
-@import "./Elements/.";
-@import "./Generic/.";
-@import "./Images/.";
-@import "./Misc/.";
-@import "./Mixins/";
+@import "./Generic/reset";
+
+@import "./Settings/mixins";
+@import "./Settings/fonts";
+@import "./Settings/colors";
+
+@import "./Section/base";
+@import "./Section/header";
+
+@import "./Elements/menu_toggle.scss";
+
+

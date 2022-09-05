@@ -1,0 +1,48 @@
+.header {
+    display: block;
+  
+     @include notebook{
+    //   background-image: url("../assets/Home-Hero-Image.jpg");
+      background-size: cover;
+      width: 50%;
+      height: 100vh;
+      background-position: right;
+     }  
+  
+  }
+  
+  .header__elements {
+    width: 100%;
+    padding-top: 2rem;
+    text-align: center;
+    margin:0 auto;
+  
+    @include notebook {
+      width: 50%;
+    }
+    .header__mobile__baner{
+    //   background-image: url("../Images/background_all.jpeg");
+      background-size: cover;
+      width: 100%;
+      height: 50vh;
+      background-position: center;
+      @include notebook{
+        display:none;
+      }
+    
+    }
+    .header__right {
+      padding: 4rem 2rem;
+      // padding-bottom: 4rem;
+  
+      @include notebook{
+        padding-top: 13.5rem;
+  
+      }
+  
+    }
+      p {
+        font-size: 3.2vh;
+        text-align: center;
+      }
+    }

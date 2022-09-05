@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: $font-base;
+    background-image: url("../Images/background_all.jpeg");
+    background-size: cover;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: $color-dar-grey;
+  }
+  
+  .container {
+    margin: 0 auto;
+    display: block;
+  
+    @include notebook {
+      display: flex;
+
+    }
+   
+  }
+  
