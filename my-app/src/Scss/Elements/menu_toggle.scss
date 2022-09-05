@@ -1,5 +1,12 @@
+.container{
+    @include notebook{
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+    }
 .menu {
   &__btn {
+
     display: none;
     position: absolute;
     top: -9999px;
@@ -7,13 +14,14 @@
     opacity: 0;
   
       &:checked {
-        & ~ .header__nav {
+        & ~ .menu__nav {
+            margin: 0 auto;
             display: flex;
             flex-direction: column;
-            float: right;
             align-items: center;
-            width: 100%;
-              background-color: $color-primary;
+            width: 80%;
+            padding-top: 1rem;
+            box-shadow: 3px 3px 10px $color-purple, $color-light-purple -3px 3px 10px, 3px -3px 10px;
               @include notebook{
                 display: none;
               }
@@ -26,7 +34,7 @@
               font-weight: 700; 
               font-size: 1.5rem;
               a{
-                color: $color-dar-grey;
+                color: $color-light-pink;
   
               }
              
@@ -64,7 +72,7 @@
       }
     }
   
-    .header__nav{
+    .menu__nav{
       display: none;
   
       @include notebook{
@@ -75,6 +83,7 @@
   
           .nav__element{
             padding-left: 2rem;
+            padding-top: 3rem;
   
             a{
               color: $color-purple;
@@ -88,3 +97,4 @@
           }
         }
       }
+    }

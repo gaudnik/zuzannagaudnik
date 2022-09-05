@@ -3,11 +3,11 @@ import {Link} from "react-scroll";
 // import {Link as ReactLink} from 'react-router-dom'
 
 
-const Header = () => {
+const Menu = () => {
     return (
         <div className="container">
-            <div className="header"></div>
-                <div className="header__elements">
+            <div className="menu"></div>
+                <div className="menu__elements">
                     <nav>
                         <input type="checkbox" className="menu__btn" id="menu__btn"/>
                             <label htmlFor="menu__btn" className="menu__toggle">
@@ -15,7 +15,7 @@ const Header = () => {
                                 <span></span>
                                 <span></span>
                             </label>
-                        <ul className='header__nav'>
+                        <ul className="menu__nav">
                             <li className="nav__element"><Link to="home">Start</Link></li>
                             <li className="nav__element"><Link to="aboutme" >About Me</Link></li>
                             <li className="nav__element"><Link to="projects">Projects</Link></li>
@@ -23,11 +23,10 @@ const Header = () => {
                             <li className="nav__element"><Link to="contact">Contact</Link></li>
                         </ul>
                     </nav>
-                    {/* <div className="header__mobile__baner"></div> */}
                 </div>
             </div>
         
     )
 }
 
-export default Header;
+export default Menu;

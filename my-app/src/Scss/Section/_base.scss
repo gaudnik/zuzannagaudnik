@@ -19,7 +19,7 @@
   h1 {
     font-size: 2.25rem;
     font-weight: 700;
-    color: $color-dar-grey;
+    color: $color-light-purple;
   }
   
   .container {
@@ -28,7 +28,7 @@
   
     @include notebook {
       display: flex;
-
+      
     }
    
   }
