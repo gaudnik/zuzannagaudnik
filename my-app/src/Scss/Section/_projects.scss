@@ -1,0 +1,38 @@
+.projects{
+    display:block;
+    background-color: $color-black;
+    width: 90%;
+    height: auto;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    box-shadow: $color-shadow;
+    @include notebook {
+        display: flex;
+        padding: 3rem 3rem;
+        margin-top: 2rem;
+
+    }
+    &__description{
+        opacity: 0.7;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        @include notebook {
+            width: 60%;
+        }
+    }
+
+    &__image {
+        background-image: url("../Images/hpquiz.jpg");
+        background-size: cover;
+        background-position: right;
+        width: 16rem;
+        height: 16rem;
+        align-items: center;
+        border-radius: 50%;
+        box-shadow: $color-shadow;
+        margin: 0 auto;
+    }
+}
