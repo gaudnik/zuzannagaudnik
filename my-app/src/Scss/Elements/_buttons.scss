@@ -1,0 +1,27 @@
+.btn {
+  background-color: $color-light-purple;
+  border-radius: 6.25rem;
+  box-shadow: $color-shadow;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.438rem 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 1.2rem;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 1rem;
+  padding: 1rem;
+}
+.btn:hover {
+  box-shadow: $color-shadow;
+  transform: scale(1.05);
+  color: white;
+  
+}
+.btn:active {
+    color: $color-purple;
+}
