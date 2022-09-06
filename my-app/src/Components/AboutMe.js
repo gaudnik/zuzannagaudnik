@@ -6,9 +6,9 @@ const AboutMe = () => {
             <div className="about__me__description">
                 <h1>O mnie</h1>
                 <div className="separator"></div>
-                <p className="about__me__text">Nori grape silver beet broccoli kombu
-                 beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea 
-                 prairie turnip leek lentil turnip greens parsnip.</p>
+                <p className="about__me__text">I am a front-end developer who is looking 
+                for new challenges and opportunities to develop programming skills. 
+                During the last year of working as a freelancer, I realized that I need stabilization on my professional path.</p>
             </div>
             <div className="about__me__image"></div>
         </section>

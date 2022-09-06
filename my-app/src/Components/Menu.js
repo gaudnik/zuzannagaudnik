@@ -20,6 +20,7 @@ const Menu = () => {
                             <li className="nav__element"><Link to="aboutme" >About Me</Link></li>
                             <li className="nav__element"><Link to="projects">Projects</Link></li>
                             <li className="nav__element"><Link to="tools">Tools</Link></li>
+                            <li className="nav__element"><Link to="hobbies">Hobbies</Link></li>
                             <li className="nav__element"><Link to="contact">Contact</Link></li>
                         </ul>
                     </nav>
