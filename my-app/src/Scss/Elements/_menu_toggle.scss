@@ -93,12 +93,13 @@
               color: $color-purple;
               padding: 1rem;
               border: 1px solid $color-black;
-
-
             }
             :hover{
               border: 1px solid $color-light-purple;
               color: $color-light-purple;
+            }
+            :active {
+              box-shadow: $color-shadow-clicked;              
             }
   
           }

@@ -41,6 +41,9 @@
   background-color: $color-light-purple;
   @include notebook{
     background-color: inherit;
+    .btn:active{
+      box-shadow: $color-shadow-clicked;
+    }
   }
  
 }

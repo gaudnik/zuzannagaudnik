@@ -3,3 +3,4 @@ $color-light-purple: #dea9e8;
 $color-purple: #6a0e7c;
 $color-black: rgba(0, 0, 0, 0.6);
 $color-shadow: 3px 3px 10px $color-purple, $color-light-purple -3px 3px 10px, 3px -3px 10px;
+$color-shadow-clicked: 3px 3px 10px $color-light-purple, white -3px 3px 10px, 3px -3px 10px;
