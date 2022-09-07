@@ -11,7 +11,7 @@ const AboutMe = () => {
                 <p className="aboutme__text">I am a front-end developer who is looking 
                 for new challenges and opportunities to develop programming skills. 
                 During the last year of working as a freelancer, I realized that I need stabilization on my professional path.</p>
-                <a  target="blank" className="btn" href="https://drive.google.com/file/d/1NcrcO5DTHo8GC_40yum4ZsChvhrIqFER/view?usp=sharing" >
+                <a  target="blank" className="btn" href="https://app.enhancv.com/share/b7193166/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" >
                     Download my CV</a>
             </div>
         </section>
