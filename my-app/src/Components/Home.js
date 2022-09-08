@@ -3,6 +3,7 @@ import Menu from "./Menu";
 import Header from "./Header";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
+import Tools from "./Tools";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
@@ -13,6 +14,7 @@ const Home = () => {
             <Header/>
             <AboutMe/>
             <Projects/>
+            <Tools/>
             <Contact/>
             <Footer/>
         </div>
