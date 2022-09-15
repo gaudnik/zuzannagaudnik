@@ -1,30 +1,3 @@
-// .btn {
-//   background-color: $color-light-purple;
-//   border-radius: 6.25rem;
-//   box-shadow: $color-shadow;
-//   cursor: pointer;
-//   display: inline-block;
-//   padding: 0.438rem 1.25rem;
-//   text-align: center;
-//   text-decoration: none;
-//   transition: all 250ms;
-//   border: 0;
-//   font-size: 1.2rem;
-//   user-select: none;
-//   -webkit-user-select: none;
-//   touch-action: manipulation;
-//   margin: 1rem;
-//   padding: 1rem;
-// }
-// .btn:hover {
-//   box-shadow: $color-shadow;
-//   transform: scale(1.05);
-//   color: white;
-  
-// }
-// .btn:active {
-//     color: $color-purple;
-
 .btn {
   font-size: 1.2rem;
   font-weight: 200;
@@ -37,7 +10,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   box-shadow: $color-shadow;
-  background-color: $color-light-purple;
+  background-color: $color-light-blue;
   @include notebook{
     background-color: inherit;
     .btn:active{
@@ -49,7 +22,7 @@
 @include notebook{
   .btn:after {
     content: "";
-    background-color: $color-light-purple;
+    background-color: $color-light-blue;
     border-radius: 6.25rem;
     width: 100%;
     z-index: -1;

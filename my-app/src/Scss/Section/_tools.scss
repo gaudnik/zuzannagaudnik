@@ -7,7 +7,7 @@
     margin-top: 2rem;
     border-radius: 1rem;
     box-shadow: $color-shadow;
-    background-image: url("../Images/background.jpeg");
+    // background-image: url("../Images/background.jpeg");
     background-size: cover;
     @include notebook {
         padding: 3rem 3rem;
@@ -20,16 +20,14 @@
         display: flex;
         flex-wrap: wrap;
         width: 95%;
-        border: 1px solid red;
         height: auto;
         justify-content: center;
         margin: 0  auto;
     }
     &__tool {
-        border: 1px solid red;
         width: 5rem;
         height: 5rem;
-        background-color: aqua;
+        background-color: rgb(255, 255, 255);
         border-radius: 1rem;
         margin: 0.2rem;
     }

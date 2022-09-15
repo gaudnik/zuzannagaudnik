@@ -1,14 +1,14 @@
  nav {
   @include notebook{
     position:fixed ;
-    background-color: rgb(34, 22, 36);
+    background-image: url("../Images/web_background.jpeg");
+    background-size: cover;
     width: 100%;
     z-index: 1;
 
   }
 
   .menu__btn {
-
     display: none;
     position: absolute;
     top: -9999px;
@@ -17,29 +17,28 @@
   
       &:checked {
         & ~ .menu__nav {
-            margin: 0 auto;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            width: 80%;
-            padding-top: 1rem;
-            background-color: black;
-            opacity: 0.7;
-            box-shadow: $color-shadow;
+            float: left;
+            justify-content: center;
+            width: 99%;
+            border: 1px solid $color-light-blue;
+            background-image: url("../Images/menu_background.jpeg");
+            background-size: cover;
             border-radius: 1rem;
               @include notebook{
                 display: none;
               }
   
             .nav__element {
-              padding-bottom: 1rem;
-              padding-top: 1rem;
+              padding-bottom: 0.5rem;
+              padding-top: 0.5rem;
               width: 100%;
               text-align: center;
               font-weight: 700; 
               font-size: 1.5rem;
               a{
-                color: $color-light-pink;
+                color: $color-white;
   
               }
              
@@ -94,13 +93,13 @@
             a{
               color: $color-purple;
               padding: 1rem;
-              border: 1px solid rgb(34, 22, 36);
+              border: 1px solid ;
               
               
             }
             :hover{
-              border: 1px solid $color-light-purple;
-              color: $color-light-purple;
+              border: 1px solid $color-light-blue;
+              color: $color-light-blue;
             }
             :active {
               box-shadow: $color-shadow-clicked; 

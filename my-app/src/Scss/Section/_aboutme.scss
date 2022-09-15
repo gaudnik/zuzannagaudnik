@@ -5,9 +5,10 @@
     height: auto;
     padding: 2rem 1rem;
     margin: 0 auto;
-    border-radius: 1rem;
-    box-shadow: $color-shadow;
-    background-image: url("../Images/AdobeStock_341174344.jpeg");
+    border: 1px solid $color-purple;
+    // border-radius: 1rem;
+    // box-shadow: $color-shadow;
+    // background-image: url("../Images/AdobeStock_341174344.jpeg");
     background-size: cover;
     @include notebook {
         display: flex;
