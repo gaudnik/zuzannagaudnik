@@ -4,13 +4,16 @@
 @import "./Settings/fonts";
 @import "./Settings/colors";
 
+@import "./Elements/separator";
+@import "./Elements/buttons";
+
 @import "./Section/base";
-@import "./Section/menu";
 @import "./Section/header";
 @import "./Section/aboutme";
 @import "./Section/projects";
+@import "./Section/tools";
+@import "./Section/menu";
 
-@import "./Elements/separator";
-@import "./Elements/buttons";
+
 
 

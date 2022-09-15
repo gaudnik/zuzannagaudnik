@@ -1,0 +1,37 @@
+.tools {
+    background-color: $color-black;
+    width: 90%;
+    height: auto;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    box-shadow: $color-shadow;
+    background-image: url("../Images/background.jpeg");
+    background-size: cover;
+    @include notebook {
+        padding: 3rem 3rem;
+
+    }
+    &__header {
+        text-align: center;
+    }
+    &__box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        border: 1px solid red;
+        height: auto;
+        justify-content: center;
+        margin: 0  auto;
+    }
+    &__tool {
+        border: 1px solid red;
+        width: 5rem;
+        height: 5rem;
+        background-color: aqua;
+        border-radius: 1rem;
+        margin: 0.2rem;
+    }
+
+}

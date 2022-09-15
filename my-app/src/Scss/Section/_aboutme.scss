@@ -7,6 +7,8 @@
     margin: 0 auto;
     border-radius: 1rem;
     box-shadow: $color-shadow;
+    background-image: url("../Images/AdobeStock_341174344.jpeg");
+    background-size: cover;
     @include notebook {
         display: flex;
         padding: 3rem 3rem;

@@ -8,10 +8,10 @@
   
   body {
     font-family: $font-base;
-    background-image: url("../Images/background_all.jpeg");
-    background-size: cover;
-    margin-bottom: 2rem;
+    background-color: rgb(34, 22, 36);
 
+    margin-bottom: 2rem;
+   
   }
   
   a {
@@ -34,7 +34,7 @@
     padding: 1rem;
   }
   p {
-    color: $color-light-purple;
+    color: $color-white;
     line-height: normal;
     padding-bottom: 4rem;
 }

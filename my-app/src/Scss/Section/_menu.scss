@@ -1,11 +1,13 @@
-.container{
-    @include notebook{
-        margin: 0 auto;
-        display: flex;
-        justify-content: flex-end;
-    }
-.menu {
-  &__btn {
+ nav {
+  @include notebook{
+    position:fixed ;
+    background-color: rgb(34, 22, 36);
+    width: 100%;
+    z-index: 1;
+
+  }
+
+  .menu__btn {
 
     display: none;
     position: absolute;
@@ -50,7 +52,7 @@
       }
       
   
-      &__toggle {
+      .menu__toggle {
         display: block;
         float: right;
         margin: 2rem;
@@ -83,16 +85,18 @@
           justify-content: flex-end;
           padding-right: 4.5rem;
           padding-bottom: 2rem;
-
+          
   
           .nav__element{
             padding-left: 1.2rem;
-            padding-top: 3rem;
+            padding-top: 2rem;
   
             a{
               color: $color-purple;
               padding: 1rem;
-              border: 1px solid $color-black;
+              border: 1px solid rgb(34, 22, 36);
+              
+              
             }
             :hover{
               border: 1px solid $color-light-purple;
@@ -105,4 +109,3 @@
           }
         }
       }
-    }
