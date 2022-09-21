@@ -23,13 +23,42 @@
         height: auto;
         justify-content: center;
         margin: 0  auto;
+        
     }
     &__tool {
         width: 5rem;
         height: 5rem;
-        background-color: rgb(255, 255, 255);
         border-radius: 1rem;
         margin: 0.2rem;
     }
+    &__tool:first-child{
+        background-image: url("../Images/JS-logo.png");
+        background-size: cover;
+        
+    }
+    &__tool:nth-child(2){
+        background-image: url("../Images/react.png");
+        background-size: cover;
+        background-position: center;
+    }
+    &__tool:nth-child(3){
+        background-image: url("../Images/node.jpg");
+        background-size: cover; 
+    }
+    &__tool:nth-child(4){
+        background-image: url("../Images/babel.png");
+        background-size: cover;
+        background-position: center;
+        background-color: aliceblue; 
+    }
+    &__tool:nth-child(5){
+        background-image: url("../Images/html.png");
+        background-size: cover; 
+        background-color: aliceblue; 
 
+    }
+    &__tool:nth-child(6){
+        background-image: url("../Images/css_nowe_logo.png");
+        background-size: cover; 
+    }
 }
