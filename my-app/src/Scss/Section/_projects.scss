@@ -6,9 +6,8 @@
     padding: 2rem 1rem;
     margin: 0 auto;
     margin-top: 2rem;
-    border-radius: 1rem;
-    box-shadow: $color-shadow;
-    // background-image: url("../Images/AdobeStock_367569865.jpeg");
+    border: 1px solid $color-purple;
+    background-image: url("../Images/about_me_background.jpeg");
     background-size: cover;
     @include notebook {
         display: flex;
@@ -30,11 +29,13 @@
         background-image: url("../Images/hpquiz.jpg");
         background-size: cover;
         background-position: right;
+        color: rgb(36, 167, 255);
         width: 16rem;
         height: 16rem;
         align-items: center;
         border-radius: 50%;
         box-shadow: $color-shadow;
         margin: 0 auto;
-    }
+        outline: none;
+        }
 }

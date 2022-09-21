@@ -1,12 +1,13 @@
 .tools {
-    background-color: $color-black;
     width: 90%;
     height: auto;
     padding: 2rem 1rem;
     margin: 0 auto;
     margin-top: 2rem;
-    border-radius: 1rem;
-    box-shadow: $color-shadow;
+    border: 1px solid $color-purple;
+    background-image: url("../Images/about_me_background.jpeg");
+    background-size: cover;
+
     @include notebook {
         padding: 3rem 3rem;
 
@@ -24,41 +25,66 @@
         
     }
     &__tool {
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
         border-radius: 1rem;
-        margin: 0.2rem;
+        margin: 0.3rem;
         background-size: cover; 
         background-color: aliceblue; 
+        background-position: center;
+        @include tablet {
+            margin: 1rem;
+            width: 5rem;
+            height: 5rem;
+        }
 
         @include notebook {
-            margin: 1rem;;
+            margin: 1rem;
+            width: 5rem;
+            height: 5rem;
         }
+
     }
     &__tool:first-child{
         background-image: url("../Images/JS-logo.png");        
     }
     &__tool:nth-child(2){
         background-image: url("../Images/react.png");
-        background-position: center;
     }
     &__tool:nth-child(3){
         background-image: url("../Images/node.jpg");
     }
     &__tool:nth-child(4){
         background-image: url("../Images/babel.png");
-        background-position: center;
-        background-color: aliceblue; 
     }
     &__tool:nth-child(5){
         background-image: url("../Images/html.png");
-        background-size: cover; 
     }
     &__tool:nth-child(6){
         background-image: url("../Images/css_nowe_logo.png");
     }
     &__tool:nth-child(7){
-        background-image: url("../Images/JSON_vector_logo.svg.png");
-        
+        background-image: url("../Images/JSON_vector_logo.svg.png"); 
+    }
+    &__tool:nth-child(8){
+        background-image: url("../Images/gulp.png");
+    }
+    &__tool:nth-child(9){
+        background-image: url("../Images/webpack.png");
+    }
+    &__tool:nth-child(10){
+        background-image: url("../Images/sass.png");
+    }
+    &__tool:nth-child(11){
+        background-image: url("../Images/npm.png");
+    }
+    &__tool:nth-child(12){
+        background-image: url("../Images/firebase.png");
+    }
+    &__tool:nth-child(13){
+        background-image: url("../Images/jira.jpg");
+    }
+    &__tool:nth-child(14){
+        background-image: url("../Images/github.png");
     }
 }

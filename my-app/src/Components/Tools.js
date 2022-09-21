@@ -14,15 +14,13 @@ const Tools = () => {
                     <a className="tools__tool" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="blank"></a>
                     <a className="tools__tool" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="blank"></a>
                     <a className="tools__tool" href= "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON" target="blank"></a>
-                    <a className="tools__tool" href= "" target="blank"></a>
-                    <a className="tools__tool" href= "" target="blank"></a>
-                    <a className="tools__tool" href= "" target="blank"></a>
-                    <a className="tools__tool" href= "" target="blank"></a>
-                    <a className="tools__tool" href= "" target="blank"></a>
-                    <a className="tools__tool" href= "" target="blank"></a>
-                    <a className="tools__tool" href= "" target="blank"></a>
-                    <a className="tools__tool" href= "" target="blank"></a>
-                    <a className="tools__tool" href= "" target="blank"></a>
+                    <a className="tools__tool" href= "https://gulpjs.com/" target="blank"></a>
+                    <a className="tools__tool" href= "https://webpack.js.org/" target="blank"></a>
+                    <a className="tools__tool" href= "https://sass-lang.com/documentation/" target="blank"></a>
+                    <a className="tools__tool" href= "https://docs.npmjs.com/" target="blank"></a>
+                    <a className="tools__tool" href= "https://firebase.google.com/docs" target="blank"></a>
+                    <a className="tools__tool" href= "https://www.atlassian.com/software/jira" target="blank"></a>
+                    <a className="tools__tool" href= "https://github.com/" target="blank"></a>
                 </div>
 
             </section>

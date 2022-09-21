@@ -4,8 +4,8 @@
   letter-spacing: 1px;
   padding: 1rem 1.5rem;
   outline: 0;
+  color: white;
   position: relative;
-  border-radius: 6.25rem;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -22,8 +22,9 @@
 @include notebook{
   .btn:after {
     content: "";
-    background-color: $color-light-blue;
-    border-radius: 6.25rem;
+    // background-color: $color-metalic;
+    background-image: url("../Images/about_me_background.jpeg");
+    background-size: cover;
     width: 100%;
     z-index: -1;
     position: absolute;

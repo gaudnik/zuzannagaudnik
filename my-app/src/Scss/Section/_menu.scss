@@ -1,8 +1,9 @@
  nav {
   @include notebook{
     position:fixed ;
-    background-image: url("../Images/web_background.jpeg");
+    background-image: url("../Images/about_me_background.jpeg");
     background-size: cover;
+    background-position:  bottom;
     width: 100%;
     z-index: 1;
 
@@ -23,9 +24,8 @@
             justify-content: center;
             width: 99%;
             border: 1px solid $color-light-blue;
-            background-image: url("../Images/menu_background.jpeg");
+            background-image: url("../Images/about_me_background.jpeg");
             background-size: cover;
-            border-radius: 1rem;
               @include notebook{
                 display: none;
               }
