@@ -6,8 +6,25 @@
     background-position:  bottom;
     width: 100%;
     z-index: 1;
+    align-items: center;
+    text-align: center;
 
+   }
+  .menu__logo{
+    font-size: 1rem;
+    float: left;
+    padding: 1.5rem;
+    @include tablet {
+      font-size: 2rem;
+    }
   }
+  span{
+      vertical-align: middle;
+      color: $color-white;
+  }
+  span:first-of-type {
+    color: $color-light-blue;
+}
 
   .menu__btn {
     display: none;

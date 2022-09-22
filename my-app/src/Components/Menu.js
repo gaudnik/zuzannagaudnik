@@ -6,6 +6,9 @@ import {Link} from "react-scroll";
 const Menu = () => {
     return (
         <nav>
+            <a className="menu__logo" href="#">
+                <span>Zuzanna</span> <span>Gaudnik</span>
+            </a>
             <input type="checkbox" className="menu__btn" id="menu__btn"/>
                 <label htmlFor="menu__btn" className="menu__toggle">
                     <span></span>

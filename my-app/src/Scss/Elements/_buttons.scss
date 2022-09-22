@@ -22,9 +22,9 @@
 @include notebook{
   .btn:after {
     content: "";
-    // background-color: $color-metalic;
     background-image: url("../Images/about_me_background.jpeg");
     background-size: cover;
+    background-position: center;
     width: 100%;
     z-index: -1;
     position: absolute;
