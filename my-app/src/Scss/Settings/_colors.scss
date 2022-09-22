@@ -3,5 +3,7 @@ $color-light-blue: #a9c7e8;
 $color-purple: #1a6fb4;
 $color-black: rgba(0, 0, 0, 0.6);
 $color-metalic: rgb(103, 110, 114);
-$color-shadow: 3px 3px 10px #4b78ff, rgb(0, 51, 255) -3px 3px 10px, 3px -3px 10px;
+$color-shadow: 3px 3px 10px #ffffff, rgb(255, 255, 255) -3px 3px 10px, 3px -3px 10px;
+$color-shadow-img: 3px 3px 10px #000000, rgb(0, 0, 0) -3px 3px 10px, 3px -3px 10px;
+
 $color-shadow-clicked: 3px 3px 10px $color-light-blue, rgb(255, 255, 255) -3px 3px 10px, 3px -3px 10px;

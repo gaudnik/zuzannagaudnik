@@ -2,18 +2,20 @@
     display:block;
     width: 90%;
     height: auto;
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
     margin: 0 auto;
+    margin-bottom: 2rem;
     border: 1px solid $color-purple;
     background-image: url("../Images/about_me_background.jpeg");
     background-size: cover;
     @include notebook {
         display: flex;
         padding: 6rem 6rem;
+        text-align: center;
+        align-items: center;
 
     }
     &__description{
-        opacity: 0.7;
         width: 100%;
         text-align: center;
         justify-content: center;
@@ -30,7 +32,7 @@
         height: 12rem;
         border-radius: 50%;
         margin: 0 auto;
-        box-shadow: $color-shadow;
+        box-shadow: $color-shadow-img;
         @include notebook {
             width: 16rem;
             height: 16rem;  

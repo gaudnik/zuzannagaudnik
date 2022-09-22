@@ -15,6 +15,12 @@
     &__header {
         text-align: center;
     }
+    &__text{
+        @include tablet{
+        text-align: center;
+
+        }
+    }
     &__box {
         display: flex;
         flex-wrap: wrap;
@@ -86,5 +92,14 @@
     }
     &__tool:nth-child(14){
         background-image: url("../Images/github.png");
+    }
+    &__tool:nth-child(15){
+        background-image: url("../Images/Git-Icon-1788C.png");
+    }
+    &__tool:nth-child(16){
+        background-image: url("../Images/typescript.png");
+    }
+    &__tool:nth-child(17){
+        background-image: url("../Images/trello.png");
     }
 }

@@ -10,21 +10,22 @@
     @include tablet{
         background-position: bottom;
         height: 90vh;
+        padding-top: 8rem;
     }
     @include notebook {
         height: 100vh;
-        padding-top: 6rem;
+        padding-top: 10rem;
     }
     &__logo{
         background-image: url("../Images/Logo.png");
         background-size: cover;
         background-position: center;
         margin: 0 auto;
-        width: 10rem;
-        height: 8rem;
+        width: 13rem;
+        height: 10rem;
         @include tablet{
-            width: 20rem;
-            height: 15rem;
+            width: 30rem;
+            height: 20rem;
         }
     }
     &__title{
