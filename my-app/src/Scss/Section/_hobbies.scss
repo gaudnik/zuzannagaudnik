@@ -1,0 +1,48 @@
+.hobbies {
+width: 90%;
+height: auto;
+padding: 2rem 1rem;
+margin: 0 auto;
+margin-top: 2rem;
+border: 1px solid $color-purple;
+background-image: url("../Images/about_me_background.jpeg");
+background-size: cover;
+
+@include notebook {
+    padding: 6rem 6rem;
+
+}
+&__header {
+    text-align: center;
+}
+&__text{
+    @include tablet{
+    text-align: center;
+
+    }
+}
+&__box {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    margin: 0  auto;
+    
+}
+&__hobby {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+    margin: 0.3rem;
+    background-size: cover; 
+    background-color: aliceblue; 
+    background-position: center;
+    @include tablet {
+        margin: 1rem;
+        width: 20rem;
+        height: 15rem;
+    }
+
+
+}
+}

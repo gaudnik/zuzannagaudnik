@@ -9,9 +9,12 @@
   position: relative;
   user-select: none;
   -webkit-user-select: none;
+  border: 1px solid $color-light-blue;
   touch-action: manipulation;
-  box-shadow: $color-shadow;
-  background-color: $color-light-blue;
+  background-color: $color-black;
+  a:active {
+    color: $color-purple;
+  }
   @include notebook{
     background-color: inherit;
     .btn:active{
