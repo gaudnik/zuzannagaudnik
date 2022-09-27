@@ -32,15 +32,15 @@
     text-align: center;
     padding: 1rem;
   }
+
   p {
     color: $color-white;
     line-height: normal;
     padding-bottom: 4rem;
     width: 80%;
     margin: 0 auto;
-    text-align: center;
-    
-}
+    text-align: center; 
+  }
   
   .container {
     margin: 0 auto;
@@ -50,6 +50,5 @@
       display: flex;
       
     }
-   
   }
   

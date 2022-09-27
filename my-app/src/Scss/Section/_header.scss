@@ -1,20 +1,20 @@
 .header {
-    background-image: url("../Images/about_me_background.jpeg");
+    background-image: url("../Images/banner.jpeg");
     background-size: cover;
-    background-position: top;
+    background-position: center;
     margin: 0 auto;
     width: 100%;
     height: 40vh;
     padding-top: 3rem;
     text-align: center;
     @include tablet{
-        background-position: bottom;
+        background-position: center;
         height: 90vh;
         padding-top: 8rem;
     }
     @include notebook {
         height: 100vh;
-        padding-top: 10rem;
+        padding-top: 13rem;
     }
     &__logo{
         background-image: url("../Images/Logo.png");
@@ -37,10 +37,7 @@
             font-size: 3rem;
         }
         @include notebook{
-            // padding-top: 17rem;
             color:$color-light-blue;
         }
     }
-    
-    
 }

@@ -1,14 +1,13 @@
  nav {
   @include notebook{
     position:fixed ;
-    background-image: url("../Images/about_me_background.jpeg");
+    background-image: url("../Images/banner.jpeg");
     background-size: cover;
-    background-position:  bottom;
+    background-position:  center;
     width: 100%;
     z-index: 2;
     align-items: center;
     text-align: center;
-
    }
   
   .menu__logo{
@@ -19,14 +18,16 @@
       font-size: 2rem;
     }
   }
+
   span{
       vertical-align: middle;
       color: $color-white;
       outline: none;
   }
+
   span:first-of-type {
-    color: $color-light-blue;
-}
+      color: $color-light-blue;
+  }
 
   .menu__btn {
     display: none;
@@ -58,7 +59,6 @@
               font-size: 1.5rem;
               a{
                 color: $color-white;
-  
               }
              
               a:active {
@@ -104,7 +104,6 @@
           padding-right: 4.5rem;
           padding-bottom: 2rem;
           
-  
           .nav__element{
             padding-left: 1.2rem;
             padding-top: 2rem;
@@ -113,17 +112,16 @@
               color: $color-purple;
               padding: 1rem;
               border: 1px solid ;
-              
-              
             }
+
             :hover{
               border: 1px solid $color-light-blue;
               color: $color-light-blue;
             }
+
             :active {
               box-shadow: $color-shadow-clicked; 
             }
-  
           }
         }
       }

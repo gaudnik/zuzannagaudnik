@@ -8,13 +8,19 @@
     border: 1px solid $color-purple;
     background-image: url("../Images/about_me_background.jpeg");
     background-size: cover;
-    @include notebook {
+    background-position: center;
+    @include tablet {
         display: flex;
         padding: 6rem 6rem;
         text-align: center;
         align-items: center;
-
+        margin-bottom: 5rem;
     }
+
+    @include notebook{
+        margin-bottom: 7rem;
+    }
+
     &__description{
         width: 100%;
         text-align: center;
@@ -22,7 +28,6 @@
         @include notebook {
             width: 60%;
         }
-
     }
    
     &__image{
