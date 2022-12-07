@@ -1,13 +1,15 @@
  nav {
   @include notebook{
     position:fixed ;
-    background-image: url("../Images/banner.jpeg");
+    background-color: $color-black;
     background-size: cover;
-    background-position:  center;
+    background-position:  top;
+    padding: 1rem;
     width: 100%;
     z-index: 2;
     align-items: center;
     text-align: center;
+    opacity: 0.8;
    }
   
   .menu__logo{
@@ -21,7 +23,7 @@
 
   span{
       vertical-align: middle;
-      color: $color-white;
+      color: $color-purple;
       outline: none;
   }
 

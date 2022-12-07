@@ -17,6 +17,7 @@
   }
   @include notebook{
     background-color: inherit;
+    cursor: pointer;
     .btn:active{
       box-shadow: $color-shadow-clicked;
     }

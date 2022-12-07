@@ -4,7 +4,6 @@ const AboutMe = () => {
     return (
         <section name="aboutme" className="aboutme">
             <div className="aboutme__image"></div>
-
             <div className="aboutme__description">
                 <h1>About me</h1>
                 <div className="separator"></div>
