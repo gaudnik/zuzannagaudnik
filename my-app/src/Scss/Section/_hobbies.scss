@@ -50,4 +50,21 @@
             height: 15rem;
         }
     }
+    &__hobby:first-child{
+        background-image: url("../Images/hobby_1.jpeg");
+    }
+    &__hobby:nth-child(2){
+        background-image: url("../Images/hobby_2.jpeg");
+        background-position: bottom;
+    }
+    &__hobby:nth-child(3){
+        background-image: url("../Images/hobby_3.jpeg");
+    }
+    &__hobby:nth-child(4){
+        background-image: url("../Images/hobby_4.jpeg");
+    }
+    &__hobby:nth-child(5){
+        background-image: url("../Images/hobby_5.jpeg");
+        background-position: center;
+    }
 }
