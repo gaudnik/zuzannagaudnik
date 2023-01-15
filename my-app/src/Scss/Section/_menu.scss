@@ -1,35 +1,10 @@
  nav {
   @include notebook{
-    position:fixed ;
-    background-color: $color-black;
     background-size: cover;
-    background-position:  top;
-    padding: 1rem;
-    width: 100%;
-    z-index: 2;
     align-items: center;
     text-align: center;
     opacity: 0.8;
    }
-  
-  .menu__logo{
-    font-size: 1rem;
-    float: left;
-    padding: 1.5rem;
-    @include tablet {
-      font-size: 2rem;
-    }
-  }
-
-  span{
-      vertical-align: middle;
-      color: $color-purple;
-      outline: none;
-  }
-
-  span:first-of-type {
-      color: $color-light-blue;
-  }
 
   .menu__btn {
     display: none;
@@ -42,9 +17,10 @@
         & ~ .menu__nav {
             display: flex;
             flex-direction: column;
-            float: left;
             justify-content: center;
-            width: 99%;
+            width: 80%;
+            margin: 0 auto;
+            padding: 1.5rem;
             border: 1px solid $color-light-blue;
             background-image: url("../Images/web_background.jpeg");
             background-size: cover;
@@ -58,7 +34,7 @@
               padding-top: 0.5rem;
               width: 100%;
               text-align: center;
-              font-size: 1.5rem;
+              font-size: 1.15rem;
               a{
                 color: $color-white;
               }
@@ -101,19 +77,24 @@
       display: none;
   
       @include notebook{
-          display: flex;
+          display: block;
           justify-content: flex-end;
-          padding-right: 4.5rem;
-          padding-bottom: 2rem;
+          height: 100vh;
+          position: fixed;
+          background-color: $color-dark-purple;
+          background-size: cover;
+          border-right: 0.5 solid black;
           
           .nav__element{
-            padding-left: 1.2rem;
-            padding-top: 2rem;
+            width: 8rem;
+            margin: 1rem;            
   
             a{
+              display: block;
               color: $color-purple;
-              padding: 1rem;
+              padding: 1.5rem;
               border: 1px solid ;
+              margin-top:2rem;
             }
 
             :hover{

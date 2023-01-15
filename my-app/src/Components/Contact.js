@@ -16,28 +16,33 @@ const Contact = () => {
   }
   return (
     <section name="contact" className="contact">
-    <div className="container mt-5">
+    <div className="contact__description">
       <h1>Contact</h1>
+      <div className="separator"></div>
+      <p>If you have questions, write to me.. 
+          I'll be happy to answer!</p>
+    </div>
+    <div className="contact__container">
       <form onSubmit={onSubmit}>
-        <div className="mb-3">
+        <div className="contact__form">
           <label className="contact__label" htmlFor="name">
             Name
           </label>
           <input className="contact__control" type="text" id="name" required />
         </div>
-        <div className="mb-3">
+        <div className="contact__form">
           <label className="contact__label" htmlFor="email">
             Email
           </label>
           <input className="contact__control" type="email" id="email" required />
         </div>
-        <div className="mb-3">
+        <div className="contact__form">
           <label className="contact__label" htmlFor="message">
             Message
           </label>
-          <textarea className="contact__control" id="message" required />
+          <textarea className="contact__control message" id="message" required />
         </div>
-        <button className="btn btn-danger" type="submit">
+        <button className="btn btn__send" type="submit">
           {formStatus}
         </button>
       </form>

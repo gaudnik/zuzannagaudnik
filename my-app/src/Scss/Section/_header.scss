@@ -2,7 +2,7 @@
     margin: 0 auto;
     width: 100%;
     height: 52vh;
-    padding-top: 3rem;
+    padding-top: 2rem;
     text-align: center;
     @include tablet{
         background-position: center;
@@ -11,7 +11,10 @@
     }
     @include notebook {
         height: 100vh;
-        padding-top: 13rem;
+    }
+  
+    span:first-of-type {
+        color: $color-light-blue;
     }
     &__logo{
         background-image: url("../Images/Logo.png");
@@ -19,13 +22,13 @@
         background-position: center;
         margin: 0 auto;
         margin-top: 3rem;
-        width: 13rem;
-        height: 10rem;
-        @include tablet{
-            width: 30rem;
-            height: 20rem;
+        width: 19rem;
+        height: 17rem;
+        @include notebook{
+            scale: 1.5;
         }
     }
+
     &__title{
         font-size: 1.5rem;
         text-align: center;
