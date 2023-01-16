@@ -1,10 +1,8 @@
 import React from "react";
 import {Link} from "react-scroll";
-// import {Link as ReactLink} from 'react-router-dom'
-
 
 const Menu = () => {
-   
+    
     return (
         <nav>
             <input type="checkbox" className="menu__btn" id="menu__btn"/>
