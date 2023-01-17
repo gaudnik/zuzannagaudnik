@@ -1,8 +1,32 @@
  nav {
   @include notebook{
+    position:fixed ;
+    background-size: cover;
+    background-position:  top;
+    width: 100%;
+    z-index: 2;
+    align-items: center;
     text-align: center;
-    position: fixed;
-   }
+     }
+  
+  .menu__logo{
+    font-size: 1rem;
+    float: left;
+    padding: 1.5rem;
+    @include tablet {
+      font-size: 2rem;
+    }
+  }
+
+  span{
+      vertical-align: middle;
+      color: $color-purple;
+      outline: none;
+  }
+
+  span:first-of-type {
+      color: $color-light-blue;
+  }
 
   .menu__btn {
     display: none;
@@ -15,15 +39,13 @@
         & ~ .menu__nav {
             display: flex;
             flex-direction: column;
+            float: left;
             justify-content: center;
-            width: 80%;
-            margin: 0 auto;
-            padding: 1.5rem;
+            width: 99%;
             border: 1px solid $color-light-blue;
             background-image: url("../Images/web_background.jpeg");
             background-size: cover;
             background-position: center;
-
               @include notebook{
                 display: none;
               }
@@ -33,7 +55,7 @@
               padding-top: 0.5rem;
               width: 100%;
               text-align: center;
-              font-size: 1.15rem;
+              font-size: 1.5rem;
               a{
                 color: $color-white;
               }
@@ -50,7 +72,7 @@
       .menu__toggle {
         display: block;
         float: right;
-        margin: 1.5rem;
+        margin: 2rem;
   
         span {
           width: 40px;
@@ -67,31 +89,30 @@
         }
   
         @include notebook {
-          // display: none;
-          position: fixed;
+          display: none;
         }
       }
     }
-
-    
+  
     .menu__nav{
-      // display: none;
+      display: none;
   
       @include notebook{
-          margin-top:4rem;
-          display: block;
-       
-                      
+          display: flex;
+          justify-content: flex-end;
+          padding-right: 4.5rem;
+          padding-bottom: 2rem;
+          
           .nav__element{
-            width: 8rem;
-            margin: 1rem;   
+            padding-left: 1.2rem;
+            padding-top: 2rem;
   
             a{
-              display: block;
               color: $color-purple;
-              padding: 1.5rem;
+              background-color: $color-dark-purple;
+
+              padding: 1rem;
               border: 1px solid ;
-              margin-top:2rem;
             }
 
             :hover{
@@ -105,4 +126,3 @@
           }
         }
       }
-    
