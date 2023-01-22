@@ -4,7 +4,7 @@ import Header from "./Header";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Tools from "./Tools";
-import Hobbies from "./Hobbies";
+import Carousel from "./Hobbies";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
@@ -16,7 +16,7 @@ const Home = () => {
             <AboutMe/>
             <Projects/>
             <Tools/>
-            <Hobbies/>
+            <Carousel/>
             <Contact/>
             <Footer/>
         </div>
