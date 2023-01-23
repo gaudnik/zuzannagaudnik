@@ -7,24 +7,14 @@
     text-align: center;
      }
   
-  .menu__logo{
-    font-size: 1rem;
-    float: left;
-    padding: 1.5rem;
-    @include tablet {
-      font-size: 2rem;
-    }
-  }
-
-  span{
+  span {
       vertical-align: middle;
       color: $color-purple;
       outline: none;
-  }
-
-  span:first-of-type {
+      :first-of-type {
       color: $color-light-blue;
   }
+}
 
   .menu__btn {
     display: none;
@@ -44,9 +34,9 @@
             background-image: url("../Images/web_background.jpeg");
             background-size: cover;
             background-position: center;
-              @include notebook{
-                display: none;
-              }
+            @include notebook {
+              display: none;
+            }
   
             .nav__element {
               padding-bottom: 0.5rem;
@@ -54,7 +44,7 @@
               width: 100%;
               text-align: center;
               font-size: 1.5rem;
-              a{
+              a {
                 color: $color-white;
               }
              
@@ -65,66 +55,60 @@
           }
         }
       }
-      
+
+  .menu__toggle {
+    display: block;
+    float: right;
+    margin: 2rem;
+    @include notebook {
+      display: none;
+    }
+
+    span {
+    width: 40px;
+      height: 3px;
+      display: block;
+      margin-bottom: 6px;
+      background-color: $color-purple;
+      transition: .3s all ease-in-out;
+      align-items: end;
+      &:last-child {
+          margin-bottom: 0;
+      }
+    }
+  }
+    
+  .menu__nav {
+    display: none;
+    @include notebook {
+      box-shadow: $color-shadow-img;
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      overflow: hidden;
+
+      .nav__element {
+        padding-top: 2rem;
+        margin: 2.5rem;
   
-      .menu__toggle {
-        display: block;
-        float: right;
-        margin: 2rem;
-  
-        span {
-          width: 40px;
-          height: 3px;
-          display: block;
-          margin-bottom: 6px;
-          background-color: $color-purple;
-          transition: .3s all ease-in-out;
-          align-items: end;
-  
-          &:last-child {
-            margin-bottom: 0;
-          }
+        a {
+          color: $color-purple;
+          background-color: $color-dark-purple;
+          padding: 1rem;
+          border: 1px solid ;
         }
-  
-        @include notebook {
-          display: none;
+
+        :hover {
+          border: 1px solid $color-light-blue;
+          color: $color-light-blue;
+        }
+
+        :active {
+          box-shadow: $color-shadow-clicked; 
         }
       }
     }
-  
-    .menu__nav{
-      display: none;
-  
-      @include notebook{
-          box-shadow: $color-shadow-img;
-          display: block;
-          position: fixed;
-          left: 0;
-          top: 0;
-          bottom: 0;
-          overflow: hidden;
-          
-          .nav__element{
-            // padding-left: 1.2rem;
-            padding-top: 2rem;
-            margin: 2.5rem;
-  
-            a{
-             
-              color: $color-purple;
-              background-color: $color-dark-purple;
-              padding: 1rem;
-              border: 1px solid ;
-            }
-
-            :hover{
-              border: 1px solid $color-light-blue;
-              color: $color-light-blue;
-            }
-
-            :active {
-              box-shadow: $color-shadow-clicked; 
-            }
-          }
-        }
-      }
+  }
+}
