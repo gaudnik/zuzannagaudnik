@@ -1,8 +1,6 @@
  nav {
   @include notebook{
     position:fixed ;
-    background-size: cover;
-    background-position:  top;
     width: 100%;
     z-index: 2;
     align-items: center;
@@ -98,25 +96,23 @@
       display: none;
   
       @include notebook{
-          display: flex;
-          justify-content: flex-end;
-          padding-right: 4.5rem;
-          padding-bottom: 2rem;
+          box-shadow: $color-shadow-img;
+          display: block;
           position: fixed;
           left: 0;
           top: 0;
           bottom: 0;
           overflow: hidden;
-          transition: '0.3s';
           
           .nav__element{
-            padding-left: 1.2rem;
+            // padding-left: 1.2rem;
             padding-top: 2rem;
+            margin: 2.5rem;
   
             a{
+             
               color: $color-purple;
               background-color: $color-dark-purple;
-
               padding: 1rem;
               border: 1px solid ;
             }

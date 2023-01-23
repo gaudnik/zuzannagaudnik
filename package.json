@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "react-scrollreveal": "^1.2.0"
+    "react-scrollreveal": "^1.2.0",
+    "react-transition-group": "^1.2.1"
   }
 }
