@@ -1,5 +1,5 @@
  nav {
-  @include notebook{
+  @include notebook {
     position:fixed ;
     width: 100%;
     z-index: 2;
@@ -11,6 +11,7 @@
       vertical-align: middle;
       color: $color-purple;
       outline: none;
+
       :first-of-type {
       color: $color-light-blue;
   }
@@ -34,6 +35,7 @@
             background-image: url("../Images/web_background.jpeg");
             background-size: cover;
             background-position: center;
+
             @include notebook {
               display: none;
             }
@@ -44,6 +46,7 @@
               width: 100%;
               text-align: center;
               font-size: 1.5rem;
+
               a {
                 color: $color-white;
               }
@@ -60,18 +63,20 @@
     display: block;
     float: right;
     margin: 2rem;
+
     @include notebook {
       display: none;
     }
 
     span {
-    width: 40px;
+      width: 40px;
       height: 3px;
       display: block;
       margin-bottom: 6px;
       background-color: $color-purple;
       transition: .3s all ease-in-out;
       align-items: end;
+
       &:last-child {
           margin-bottom: 0;
       }
@@ -80,7 +85,9 @@
     
   .menu__nav {
     display: none;
+    
     @include notebook {
+      background-color: $color-menu-background;
       box-shadow: $color-shadow-img;
       display: block;
       position: fixed;

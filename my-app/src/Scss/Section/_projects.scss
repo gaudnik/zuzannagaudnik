@@ -1,4 +1,4 @@
-.projects{
+.projects {
     display:block;
     background-color: $color-black;
     width: 90%;
@@ -10,6 +10,7 @@
     background-image: url("../Images/about_me_background.jpeg");
     background-size: cover;
     background-position: center;
+
     @include tablet {
         display: flex;
         padding: 6rem 6rem;
@@ -18,20 +19,21 @@
         margin-bottom: 5rem;
     }
 
-    @include notebook{
+    @include notebook {
         margin-bottom: 7rem;
     }
     
-    &__description{
+    &__description {
         width: 100%;
         text-align: center;
         justify-content: center;
+
         @include notebook {
             width: 60%;
         }
     }
 
-    &__github{
+    &__github {
         background-image: url("../Images/github.png");
         background-size: cover;
         width: 2rem;
@@ -52,21 +54,22 @@
         margin-top: 3rem;
         text-align: center;
         outline: none;
-            @include notebook{
-            margin-top: 0;
-            }
-        }
 
-        &__harrypotter{
-            padding-top: 12rem;
-            font-size: 1.5rem;
-            font-weight: 300;
+        @include notebook{
+            margin-top: 0;
         }
+    }
+
+    &__harrypotter {
+        padding-top: 12rem;
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
         
-        .btn__projects{
-            background-image: url("../Images/github_btn.png");      
-            background-repeat: no-repeat; 
-            background-position: left;
-            padding-left: 2.5rem;
-        }
+    .btn__projects {
+        background-image: url("../Images/github_btn.png");      
+        background-repeat: no-repeat; 
+        background-position: left;
+        padding-left: 2.5rem;
+    }
 }
