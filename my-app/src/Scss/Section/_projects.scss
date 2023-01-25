@@ -1,26 +1,12 @@
 .projects {
-    display:block;
-    background-color: $color-black;
-    width: 90%;
-    height: auto;
-    padding: 2rem 1rem;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-    border: 1px solid $color-purple;
-    background-image: url("../Images/about_me_background.jpeg");
-    background-size: cover;
-    background-position: center;
+    @include sections_mobile;
 
     @include tablet {
-        display: flex;
-        padding: 6rem 6rem;
-        align-items: center;
-        margin: 0 auto;
-        margin-bottom: 5rem;
+        @include sections_tablet;
     }
 
     @include notebook {
-        margin-bottom: 7rem;
+        @include sections_notebook;
     }
     
     &__description {
