@@ -4,7 +4,7 @@ import {Link} from "react-scroll";
 const Menu = () => {
   const [visible, setVisible] = React.useState(false);
   
-  const isNarrowScreen = window.matchMedia("(min-width: 1024px)").matches;
+  const isNotebookScreen = window.matchMedia("(min-width: 1024px)").matches;
 
   const menuStyle = {
     width : '15%',
@@ -12,7 +12,7 @@ const Menu = () => {
     position : 'fixed'
     }
 
-  if (isNarrowScreen){
+  if (isNotebookScreen){
 
     return (
         <nav>
