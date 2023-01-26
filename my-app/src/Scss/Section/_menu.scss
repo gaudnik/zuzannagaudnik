@@ -1,4 +1,5 @@
  nav {
+ 
   @include notebook {
     position:fixed ;
     width: 100%;
@@ -26,15 +27,21 @@
   
       &:checked {
         & ~ .menu__nav {
-            display: flex;
-            flex-direction: column;
+            display: block;
             float: left;
-            justify-content: center;
-            width: 99%;
+            width: 90%;
             border: 1px solid $color-light-blue;
-            background-image: url("../Images/web_background.jpeg");
-            background-size: cover;
-            background-position: center;
+            background-color: $color-menu-background-mobile;
+              // background-image: url("../Images/about_me_background.jpeg");
+              // background-size: cover;
+              // background-position: center;
+            padding: 1rem;
+            margin-left: 1rem;
+    
+            @include tablet{
+              width: 90%;
+              background-position: left;
+            }
 
             @include notebook {
               display: none;
@@ -82,7 +89,9 @@
       }
     }
   }
-    
+  
+ 
+  
   .menu__nav {
     display: none;
     
