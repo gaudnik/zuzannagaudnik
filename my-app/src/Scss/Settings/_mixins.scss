@@ -12,7 +12,7 @@
   
   @mixin sections_mobile {
     display:block;
-    width: 90%;
+    width: 100%;
     height: auto;
     padding: 2rem 2rem;
     margin: 0 auto;
@@ -25,12 +25,34 @@
 
   @mixin sections_tablet {
     display: flex;
+    width: 90%;
     padding: 6rem 6rem;
     text-align: center;
     align-items: center;
     margin-bottom: 5rem;
   }
 
+  @mixin sections_centered_description {
+    padding: 6rem 6rem;
+    margin-bottom: 5rem;
+    width: 90%;
+  }
+  
   @mixin sections_notebook {
     margin-bottom: 7rem;
+  }
+
+  @mixin img_circle {
+    background-size: cover;
+    background-position: right;
+    color: rgb(36, 167, 255);
+    width: 18rem;
+    height: 18rem;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: $color-shadow-img;
+    margin: 0 auto;
+    margin-top: 3rem;
+    text-align: center;
+    outline: none;
   }

@@ -28,18 +28,7 @@
 
     &__image {
         background-image: url("../Images/hpquiz.jpg");
-        background-size: cover;
-        background-position: right;
-        color: rgb(36, 167, 255);
-        width: 18rem;
-        height: 18rem;
-        align-items: center;
-        border-radius: 50%;
-        box-shadow: $color-shadow-img;
-        margin: 0 auto;
-        margin-top: 3rem;
-        text-align: center;
-        outline: none;
+       @include img_circle;
 
         @include notebook{
             margin-top: 0;

@@ -2,8 +2,7 @@
    @include sections_mobile;
 
     @include tablet {
-        padding: 6rem 4rem;
-        margin-bottom: 5rem;
+        @include sections_centered_description;
     }
 
     @include notebook {
