@@ -15,7 +15,7 @@ const Menu = () => {
   if (isNotebookScreen){
 
     return (
-        <nav>
+      <nav>
         <div className="menu__nav" onMouseLeave={() => setVisible(false)}>
             {!visible && <div className="menu__autohidden" style={menuStyle} onMouseEnter={() => setVisible(true)}>
                 </div>}
@@ -28,11 +28,11 @@ const Menu = () => {
                 <li className="nav__element"><Link to="contact">Contact</Link></li>
             </ul>
         </div>
-        </nav>  
+      </nav>  
     )
   }else {
     return (
-        <nav>
+      <nav>
         <input type="checkbox" className="menu__btn" id="menu__btn"/>
         <label htmlFor="menu__btn" className="menu__toggle">
             <span></span>
@@ -50,7 +50,7 @@ const Menu = () => {
                 <li className="nav__element"><Link to="contact">Contact</Link></li>
             </ul>
         </div>
-        </nav>  
+      </nav>  
     )
   }
 }    

@@ -1,5 +1,4 @@
  nav {
- 
   @include notebook {
     position:fixed ;
     width: 100%;
@@ -32,9 +31,6 @@
             width: 90%;
             border: 1px solid $color-light-blue;
             background-color: $color-menu-background-mobile;
-              // background-image: url("../Images/about_me_background.jpeg");
-              // background-size: cover;
-              // background-position: center;
             padding: 1rem;
             margin-left: 1rem;
     

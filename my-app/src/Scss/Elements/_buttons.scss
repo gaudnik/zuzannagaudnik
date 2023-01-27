@@ -12,19 +12,22 @@
   border: 1px solid $color-light-blue;
   touch-action: manipulation;
   background-color: $color-black;
+
   a:active {
     color: $color-purple;
   }
-  @include notebook{
+
+  @include notebook {
     background-color: inherit;
     cursor: pointer;
-    .btn:active{
+
+    .btn:active {
       box-shadow: $color-shadow-clicked;
     }
   }
- 
 }
-@include notebook{
+
+@include notebook {
   .btn:after {
     content: "";
     background-image: url("../Images/about_me_background.jpeg");
