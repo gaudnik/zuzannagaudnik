@@ -28,8 +28,8 @@
     }
 
     &__hobby {
-        width: 15rem;
-        height: 15rem;
+        width: 6rem;
+        height: 6rem;
         border-radius: 1rem;
         margin: 0.3rem;
         background-size: cover; 
@@ -38,8 +38,8 @@
 
         @include tablet {
             margin: 1rem;
-            width: 20rem;
-            height: 15rem;
+            width: 10rem;
+            height: 10rem;
         }
     }
 
@@ -58,6 +58,18 @@
     }
     &__hobby:nth-child(5) {
         background-image: url("../Images/hobby_5.jpeg");
+        background-position: center;
+    }
+    &__hobby:nth-child(6) {
+        background-image: url("../Images/hobby_6.jpeg");
+        background-position: top;
+    }
+    &__hobby:nth-child(7) {
+        background-image: url("../Images/hobby_7.jpeg");
+        background-position: center;
+    }
+    &__hobby:nth-child(8) {
+        background-image: url("../Images/hobby_8.jpeg");
         background-position: center;
     }
 }

@@ -19,6 +19,10 @@ const Hobbies = () => {
                 <a className="hobbies__hobby" href="" target="blank"></a>
                 <a className="hobbies__hobby" href="" target="blank"></a>
                 <a className="hobbies__hobby" href="" target="blank"></a>
+                <a className="hobbies__hobby" href="" target="blank"></a>
+                <a className="hobbies__hobby" href="" target="blank"></a>
+                <a className="hobbies__hobby" href="" target="blank"></a>
+
             </div>
         </section>
     )
