@@ -6,11 +6,11 @@ const Tools = () => {
         <section className="tools">
             <h1 className="tools__header">My tools</h1>
             <div className="separator"></div>
-            <p className="tools__text">I am a person who likes to learn and discover the unknown, so .. 
+            <p className="tools__text">I`m a person who likes to learn and discover the unknown, so .. 
                 my list of skills will increase for sure!<br/>
                 My first programming language is JavaScript. When it comes to styling, Sass got my 
                 attention because it uses variables, nested rules, mixins, functions and many other solutions.
-                I am currently learning Node.js and TypeScript.
+               
             </p>
 
             <div className="tools__box">
