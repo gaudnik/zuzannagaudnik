@@ -1,0 +1,25 @@
+.footer {
+    width: 100%;
+    background-color: $color-menu-background;
+  
+    &_container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 20vh;
+      padding: 1.5rem;
+    }
+    &_item {
+        color: $color-purple;
+        text-align: center;
+
+    }
+  
+    &_logos {
+      display: flex;
+
+    }
+    &_logo {
+      margin-right: 1rem;
+    }
+  }
