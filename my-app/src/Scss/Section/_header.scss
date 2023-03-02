@@ -1,14 +1,13 @@
 .header {
-    margin: 0 auto;
     width: 100%;
-    height: 52vh;
-    padding-top: 2rem;
-    text-align: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 
     @include tablet {
         background-position: center;
-        height: 90vh;
-        padding-top: 8rem;
+        height: 100vh;
     }
 
     @include notebook {
@@ -24,12 +23,11 @@
         background-size: cover;
         background-position: center;
         margin: 0 auto;
-        margin-top: 3rem;
         width: 19rem;
         height: 17rem;
 
         @include notebook {
-            scale: 1.5;
+            scale: 1.3;
         }
     }
 

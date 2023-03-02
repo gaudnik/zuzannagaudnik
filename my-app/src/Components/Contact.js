@@ -32,21 +32,21 @@ const Contact = () => {
 
           <div className="contact__form">
             <label className="contact__label" htmlFor="name">
-              Name
+              Name:
             </label>
             <input className="contact__control" type="text" id="name" required />
           </div>
 
           <div className="contact__form">
             <label className="contact__label" htmlFor="email">
-              Email
+              Email:
             </label>
             <input className="contact__control" type="email" id="email" required />
           </div>
 
           <div className="contact__form">
             <label className="contact__label" htmlFor="message">
-              Message
+              Message:
             </label>
             <textarea className="contact__control message" id="message" required />
           </div>

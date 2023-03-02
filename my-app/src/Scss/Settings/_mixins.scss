@@ -14,7 +14,7 @@
     display:block;
     width: 100%;
     height: auto;
-    padding: 2rem 2rem;
+    padding: 3rem 2rem;
     margin: 0 auto;
     margin-bottom: 4rem;
     border: 1px solid $color-purple;
@@ -33,6 +33,9 @@
   }
 
   @mixin sections_centered_description {
+    h1 {
+      padding-top: 3rem;
+    }
     @include notebook{
       padding: 6rem 6rem;
     }
