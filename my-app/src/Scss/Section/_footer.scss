@@ -1,6 +1,7 @@
 .footer {
     width: 100%;
     background-color: $color-menu-background;
+    border: 1px solid $color-purple;
   
     &_container {
       display: flex;
@@ -17,6 +18,7 @@
   
     &_logos {
       display: flex;
+      padding: 1rem;
 
     }
     &_logo {
