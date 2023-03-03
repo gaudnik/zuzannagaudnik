@@ -28,7 +28,7 @@ const Contact = () => {
       </div>
 
       <div className="contact__container">
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit} action="emailform.php" method="post">
 
           <div className="contact__form">
             <label className="contact__label" htmlFor="name">
