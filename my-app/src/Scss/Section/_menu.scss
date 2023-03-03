@@ -3,7 +3,6 @@
     position:fixed ;
     width: 100%;
     z-index: 2;
-    align-items: center;
     text-align: center;
      }
   
@@ -27,19 +26,18 @@
       &:checked {
         & ~ .menu__nav {
           position: fixed;
-
-            display: block;
-            float: left;
-            width: 90%;
-            border: 1px solid $color-light-blue;
-            background-color: $color-menu-background-mobile;
-            padding: 1rem;
-            margin-left: 1rem;
+          display: block;
+          float: right;
+          width: 90%;
+          border: 1px solid $color-light-blue;
+          background-color: $color-menu-background-mobile;
+          padding: 1rem;
+          margin: 1rem;
     
-            @include tablet{
-              width: 90%;
-              background-position: left;
-            }
+          @include tablet{
+            width: 90%;
+            background-position: left;
+          }
 
             @include notebook {
               display: none;
@@ -106,8 +104,8 @@
       overflow: hidden;
 
       .nav__element {
-        padding-top: 2rem;
-        margin: 2.5rem;
+        padding: 1.5rem;
+        margin: 2.8rem;
   
         a {
           color: $color-purple;
