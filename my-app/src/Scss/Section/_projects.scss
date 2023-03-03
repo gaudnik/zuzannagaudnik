@@ -13,9 +13,11 @@
         width: 100%;
         text-align: center;
         justify-content: center;
+        margin-bottom: 3rem;
 
         @include notebook {
             width: 60%;
+            margin-bottom: 1rem;
         }
     }
 
