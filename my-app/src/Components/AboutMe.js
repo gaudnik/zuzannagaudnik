@@ -12,7 +12,7 @@ const AboutMe = () => {
                 to build new websites. Currently, I'm working as a freelancer on several projects, from minor 
                 one-page sites to some larger modules from more extensive projects. 
                 Last time I started considering changing from freelancing to a stable and long-term project.</p>
-                <a  target="blank" className="btn" href="https://app.enhancv.com/share/b7193166/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic" >
+                <a  target="blank" className="btn" href="">
                     Download my CV</a>
             </div>
         </section>
