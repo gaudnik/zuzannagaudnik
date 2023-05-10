@@ -8,19 +8,20 @@ const AboutMe = () => {
                 <h2>About Me</h2>
                 <div className="separator"></div>
                 <p className="aboutme__text">
-                    I'm a creative person who likes to take part in teamwork to build new
-                    websites. Currently, I'm working as a freelancer on several projects,
-                    ranging from minor one-page sites to larger modules for more extensive
-                    projects. Recently, I've started considering transitioning from
-                    freelancing to a more stable, long-term position.
+                    I am a creative person who likes to participate in teamwork and likes 
+                    to learn new things. I am currently working as a freelancer on several 
+                    projects but I am considering a change from freelancing to a long-term project, 
+                    and preferably permanent employment.
+                    I am characterized by creativity, high personal culture, resistance to stress,
+                     deadlines and .. assertiveness.
                 </p>
                 <a
                     className="btn"
-                    href="https://example.com/my-cv.pdf"
+                    href="https://www.linkedin.com/in/zuzanna-gaudnik/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Download my CV
+                    Open my LinkedIn
                 </a>
             </div>
         </section>

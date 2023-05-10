@@ -14,15 +14,14 @@ const Hobbies = () => {
             </p>
             
             <div className="hobbies__box">
-                <a className="hobbies__hobby" href="" target="blank"></a>
-                <a className="hobbies__hobby" href="" target="blank"></a>
-                <a className="hobbies__hobby" href="" target="blank"></a>
-                <a className="hobbies__hobby" href="" target="blank"></a>
-                <a className="hobbies__hobby" href="" target="blank"></a>
-                <a className="hobbies__hobby" href="" target="blank"></a>
-                <a className="hobbies__hobby" href="" target="blank"></a>
-                <a className="hobbies__hobby" href="" target="blank"></a>
-
+                <a className="hobbies__hobby"> </a>
+                <a className="hobbies__hobby"> </a>
+                <a className="hobbies__hobby"> </a>
+                <a className="hobbies__hobby"> </a>
+                <a className="hobbies__hobby"> </a>
+                <a className="hobbies__hobby"> </a>
+                <a className="hobbies__hobby"> </a>
+                <a className="hobbies__hobby"> </a>
             </div>
         </section>
     )
