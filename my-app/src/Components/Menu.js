@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-scroll";
+import menuIcon from '../Scss/Images/menu_icon.png';
 
 const Menu = () => {
   const [visible, setVisible] = React.useState(false);
@@ -9,7 +10,11 @@ const Menu = () => {
   const menuStyle = {
     width : '15%',
     height : '100vh',
-    position : 'fixed'
+    position : 'fixed',
+    backgroundImage: `url(${menuIcon})`,
+    backgroundSize: '30% auto',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'left'
     }
 
   if (isNotebookScreen){

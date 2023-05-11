@@ -12,8 +12,7 @@ const AboutMe = () => {
                     to learn new things. I am currently working as a freelancer on several 
                     projects but I am considering a change from freelancing to a long-term project, 
                     and preferably permanent employment.
-                    I am characterized by creativity, high personal culture, resistance to stress,
-                     deadlines and .. assertiveness.
+                    I am characterized by creativity, high personal culture, resistance to stress.
                 </p>
                 <a
                     className="btn"
